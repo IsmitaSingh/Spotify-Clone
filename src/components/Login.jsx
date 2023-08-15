@@ -4,7 +4,7 @@ import logo from "../assests/jjlogo.jpg"
 export default function Login() {
   const handleClick = async () => {
     const client_id = "ee1cb1579dd4421990a9b2638158e929";
-    const redirect_uri = "https://spotify-clone-mu-lake.vercel.app/";
+    const redirect_uri = "https://spotify-clone-git-main-ismitasingh.vercel.app/";
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-private",
